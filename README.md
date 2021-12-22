@@ -10,7 +10,17 @@ for testing, which was a little tricky to get working with Parcel.
 Simply clone the repo and get to work:
 
 ```bash
+# clone the repo
 git clone 'https://github.com/astridlyre/react-jest-parcel-starter' .
+
+# remove the old git repo
+rm -rf .git
+
+# initialize a new one
+git init
+
+# install packages
+pnpm install
 ```
 
 ## Features
