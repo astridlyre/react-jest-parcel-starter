@@ -5,6 +5,14 @@ as a bundler. I couldn't find the perfect starter, so I made this one. It also
 features [Jest](https://jestjs.io/) and [Testing Library](https://testing-library.com/)
 for testing, which was a little tricky to get working with Parcel.
 
+## Getting started
+
+Simply clone the repo and get to work:
+
+```bash
+git clone 'https://github.com/astridlyre/react-jest-parcel-starter' .
+```
+
 ## Features
 
 - React
