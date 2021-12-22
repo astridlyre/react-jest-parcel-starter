@@ -32,3 +32,20 @@ pnpm run build
 # Test
 pnpm run test
 ```
+
+## Bugs
+
+Note, Hot Module Reload is currently broken in Parcel when using CSS modules.
+Until fixed upstream, the following lines can be changed in 'HMRServer.js':
+
+```javascript
+// line 103 in node_modules/@parcel/reporter-dev-server/src/HMRServer.js
+if (assert.type !== 'js' && assert.type !== 'css') {
+  //...
+}
+
+// line 104 in node_modules/@parcel/reporter-dev-server/lib/HMRServer.js
+if (assert.type !== 'js' && assert.type !== 'css') {
+  //...
+}
+```
