@@ -17,6 +17,8 @@
   "author": "Erin Burton",
   "license": "MIT",
   "devDependencies": {
+    "@parcel/packager-raw-url": "^2.0.1",
+    "@parcel/transformer-webmanifest": "^2.0.1",
     "@swc/core": "^1.2.121",
     "@swc/jest": "^0.2.15",
     "@testing-library/dom": "^8.11.1",
