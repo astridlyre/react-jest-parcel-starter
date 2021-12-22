@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime"
+  ],
+  "rules": {
+    "react/prop-types": "off"
+  },
+  "env": {
+    "jest": true,
+    "browser": true,
+    "es2021": true
+  }
+}

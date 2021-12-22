@@ -1,0 +1,45 @@
+{
+  "name": "parcel-react-jest-starter",
+  "version": "1.0.0",
+  "description": "A Starter Pack for a React project, using Parcel, and Jest",
+  "source": "public/index.html",
+  "scripts": {
+    "test": "jest",
+    "dev": "parcel public/index.html",
+    "build": "parcel build public/index.html"
+  },
+  "keywords": [
+    "parcel",
+    "react",
+    "jest",
+    "starter"
+  ],
+  "author": "Erin Burton",
+  "license": "MIT",
+  "devDependencies": {
+    "@swc/core": "^1.2.121",
+    "@swc/jest": "^0.2.15",
+    "@testing-library/dom": "^8.11.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "eslint": "7",
+    "eslint-plugin-react": "^7.27.1",
+    "jest": "^27.4.5",
+    "jest-transform-stub": "^2.0.0",
+    "parcel": "^2.0.1",
+    "postcss": "^8.2.1"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.(t|j)sx?$": [
+        "@swc/jest"
+      ],
+      ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub"
+    },
+    "testEnvironment": "jsdom"
+  }
+}
