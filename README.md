@@ -2,8 +2,8 @@
 
 This is a simple React app starter, using [Parcel](https://parceljs.org/docs/)
 as a bundler. I couldn't find the perfect starter, so I made this one. It also
-features [Jest](https://jestjs.io/) for testing, which was a little tricky to
-get working with Parcel.
+features [Jest](https://jestjs.io/) and [Testing Library](https://testing-library.com/)
+for testing, which was a little tricky to get working with Parcel.
 
 ## Features
 
@@ -12,6 +12,7 @@ get working with Parcel.
 - `Normalize.css`, along with a minimal modern CSS reset
 - Support for CSS modules
 - Parcel
+- Testing library
 
 ```bash
 # Run Development Environment
