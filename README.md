@@ -5,6 +5,14 @@ as a bundler. I couldn't find the perfect starter, so I made this one. It also
 features [Jest](https://jestjs.io/) for testing, which was a little tricky to
 get working with Parcel.
 
+## Features
+
+- React
+- Jest
+- `Normalize.css`, along with a minimal modern CSS reset
+- Support for CSS modules
+- Parcel
+
 ```bash
 # Run Development Environment
 pnpm run dev
