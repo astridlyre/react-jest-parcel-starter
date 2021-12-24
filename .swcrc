@@ -5,9 +5,9 @@
       "jsx": true
     },
     "transform": {
-		"react": {
-			"runtime": "automatic"
-		}
-	}
+      "react": {
+        "runtime": "automatic"
+      }
+    }
   }
 }
