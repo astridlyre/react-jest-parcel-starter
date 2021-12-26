@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "dev": "parcel public/index.html",
-    "build": "parcel build public/index.html"
+    "build": "parcel build public/index.html",
+    "lint": "eslint src --max-warnings=0"
   },
   "keywords": [
     "parcel",
@@ -26,11 +27,15 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "eslint": "7",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
     "jest": "^27.4.5",
     "jest-transform-stub": "^2.0.0",
     "parcel": "^2.0.1",
-    "postcss": "^8.2.1"
+    "postcss": "^8.2.1",
+    "prettier": "^2.5.1"
   },
   "dependencies": {
     "react": "^17.0.2",
@@ -43,6 +48,9 @@
       ],
       ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub"
     },
-    "testEnvironment": "jsdom"
+    "testEnvironment": "jsdom",
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ]
   }
 }
