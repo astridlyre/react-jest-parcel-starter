@@ -9,3 +9,7 @@
   --base-unit: 0.32rem;
   --base-spacing: calc(var(--base-unit) * 2);
 }
+
+body {
+  font: 1rem / 1.5 var(--base-font);
+}

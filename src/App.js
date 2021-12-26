@@ -8,7 +8,7 @@ export default function App() {
       <figure className={styles.figure}>
         <img className={styles.img} src={image} alt='Nicholas Cage' />
         <figcaption className={styles.caption}>
-          I'm going to steal the Declaration of Independence.
+          I&apos;m going to steal the Declaration of Independence.
         </figcaption>
       </figure>
     </main>
