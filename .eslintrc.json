@@ -38,7 +38,7 @@
       "warn",
       {
         "namedComponents": "function-declaration",
-        "unnamedComponents": "arror-function"
+        "unnamedComponents": "arrow-function"
       }
     ],
     "react/self-closing-comp": "warn"
