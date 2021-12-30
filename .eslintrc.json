@@ -73,7 +73,6 @@
     "react-hooks/exhaustive-deps": "warn",
     "react/prop-types": "off",
     "react/boolean-prop-naming": "error",
-    "react/button-has-type": "warn",
     "react/function-component-definition": [
       "warn",
       {
