@@ -22,10 +22,12 @@ specifiers:
   prettier: ^2.5.1
   react: ^17.0.2
   react-dom: ^17.0.2
+  zustand: ^3.6.9
 
 dependencies:
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
+  zustand: 3.6.9_react@17.0.2
 
 devDependencies:
   '@parcel/core': 2.0.1
@@ -7111,3 +7113,15 @@ packages:
       y18n: 5.0.8
       yargs-parser: 20.2.9
     dev: true
+
+  /zustand/3.6.9_react@17.0.2:
+    resolution: {integrity: sha512-OvDNu/jEWpRnEC7k8xh8GKjqYog7td6FZrLMuHs/IeI8WhrCwV+FngVuwMIFhp5kysZXr6emaeReMqjLGaldAQ==}
+    engines: {node: '>=12.7.0'}
+    peerDependencies:
+      react: '>=16.8'
+    peerDependenciesMeta:
+      react:
+        optional: true
+    dependencies:
+      react: 17.0.2
+    dev: false
