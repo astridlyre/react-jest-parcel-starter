@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "A Starter Pack for a React project, using Parcel, and Jest",
   "source": "public/index.html",
-  "type": "module",
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "dev": "parcel public/index.html --open",
@@ -27,6 +26,7 @@
     "@testing-library/dom": "^8.11.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "autoprefixer": "^10.4.2",
     "eslint": "^8.6.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
@@ -37,7 +37,8 @@
     "jest-transform-stub": "^2.0.0",
     "parcel": "^2.0.1",
     "postcss": "^8.4.5",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "tailwindcss": "^3.0.13"
   },
   "dependencies": {
     "react": "^17.0.2",
