@@ -1,0 +1,25 @@
+.root {
+  background-color: #222230;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (prefers-color-scheme: dark) {
+  .root {
+    background-color: #222230;
+    color: #efefef;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .root {
+    background-color: #efefef;
+    color: #222230;
+  }
+}
+
+.title {
+  font-size: 2rem;
+  margin-top: 2rem;
+}

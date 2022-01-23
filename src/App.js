@@ -1,9 +1,9 @@
+import * as styles from './App.module.css'
+
 export default function App() {
   return (
-    <main className=''>
-      <div>
-        <h1 className=''>Hello World</h1>
-      </div>
+    <main className={styles.root}>
+      <h1 className={styles.title}>Hello, World!</h1>
     </main>
   )
 }

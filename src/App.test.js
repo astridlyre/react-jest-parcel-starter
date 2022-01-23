@@ -5,5 +5,5 @@ test('App renders', () => {
   const { container } = render(<App />)
 
   const heading = container.querySelector('h1')
-  expect(heading.innerHTML).toEqual('Hello World')
+  expect(heading.innerHTML).toEqual('Hello, World!')
 })
